@@ -21,7 +21,7 @@ async def on_message(message):
 
 
 
-    if re.match(r'[s|S][e|E][n|N][d|D] [m|M].+',message.content) or re.match(r'sawaw puas',message.content) is not None:
+    if re.match(r'send m.+',message.content,re.I) or re.match(r'sawaw puas',message.content) is not None:
 
 
 
